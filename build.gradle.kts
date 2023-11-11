@@ -28,12 +28,9 @@ dependencies {
 	runtimeOnly("org.postgresql:postgresql")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	implementation ("org.springframework.boot:spring-boot-starter-validation")
 }
 
 tasks.withType<Test> {
 	useJUnitPlatform()
-}
-
-tasks.bootBuildImage {
-	builder.set("paketobuildpacks/builder-jammy-base:latest")
 }
