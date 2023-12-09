@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pe.edu.upao.sistemas.Plataforma_Viajeros.Services.ExperienciaServicesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-09T08:25:59" hostname="DESKTOP-2ADM76V" time="0.058">
+  <properties/>
+  <testcase name="cuandoNoExistenExperiencias()" classname="pe.edu.upao.sistemas.Plataforma_Viajeros.Services.ExperienciaServicesTest" time="0.054"/>
+  <testcase name="cuandoSeListanExperienciasExitosamente()" classname="pe.edu.upao.sistemas.Plataforma_Viajeros.Services.ExperienciaServicesTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
