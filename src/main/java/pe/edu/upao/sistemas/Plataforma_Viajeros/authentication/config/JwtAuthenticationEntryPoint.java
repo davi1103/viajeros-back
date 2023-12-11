@@ -27,6 +27,6 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint, Se
         response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
         response.setContentType(MediaType.ALL_VALUE);
 //        You can also write JSON object below to send proper response as you send from REST resources.
-        response.getWriter().write("You're not authorized to perform this transaction.");
+        response.getWriter().write("No estas autorizado para esta transaccion");
     }
 }
