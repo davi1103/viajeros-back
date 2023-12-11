@@ -9,10 +9,10 @@ public class WebConfiguration implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**")
+        /*registry.addMapping("/**")
                 .allowedOrigins("https://viajamundo.netlify.app") // Reemplazar con el origen de tu frontend
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
-                .allowCredentials(true);
+                .allowCredentials(true);*/
     }
 }
